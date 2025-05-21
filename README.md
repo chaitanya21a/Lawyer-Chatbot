@@ -1,15 +1,32 @@
-# Project README
+# ⚖️ Lawyer Chatbot
 
-This is a Python project with three Python files representing different phases of the project. Below are the instructions for setting up the environment and running the project.
+An AI-powered legal assistant that uses **Retrieval-Augmented Generation (RAG)** to answer questions from uploaded legal PDF documents. It combines document retrieval with powerful language models to provide accurate and contextual answers.
 
 ---
 
-## Table of Contents
-1. [Environment Setup](#environment-setup)
-    - [Using Pipenv](#using-pipenv)
-    - [Using Conda](#using-conda)
-    - [Using Pip](#using-pip)
-2. [Running the Project](#running-the-project)
+## 📑 Table of Contents
+
+1. [Project Overview](#project-overview)  
+2. [Environment Setup](#environment-setup)  
+   - [Using Pipenv](#using-pipenv)  
+   - [Using Conda](#using-conda)  
+   - [Using Pip](#using-pip)  
+3. [Running the Project](#running-the-project)  
+4. [Notes](#notes)
+
+---
+
+## 🧠 Project Overview
+
+This project consists of three main components:
+
+- `frontend.py`: The user-facing Streamlit app to interact with the chatbot.
+- `vector_database.py`: Sets up the FAISS vector database for document retrieval.
+- `rag_pipeline.py`: Implements the core RAG logic that retrieves and answers questions.
+
+Users can upload a legal PDF and ask questions. The system fetches relevant context from the document and uses an LLM to generate accurate legal responses.
+
+<Image src="/image.png" alt="Cartoon AI Lawyer" width={300} />
 
 ---
 
