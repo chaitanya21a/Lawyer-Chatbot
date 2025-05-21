@@ -3,6 +3,12 @@
 An AI-powered legal assistant that uses **Retrieval-Augmented Generation (RAG)** to answer questions from uploaded legal PDF documents. It combines document retrieval with powerful language models to provide accurate and contextual answers.
 
 ---
+> 💡 **Note:** This project requires the `deepseek-r1-distill-llama-70b` model to be installed locally using [Ollama](https://ollama.com/).  
+> You can install it by running:  
+> ```bash
+> ollama pull deepseek-r1-distill-llama-70b
+> ```
+---
 
 ## 📑 Table of Contents
 
@@ -12,7 +18,6 @@ An AI-powered legal assistant that uses **Retrieval-Augmented Generation (RAG)**
    - [Using Conda](#using-conda)  
    - [Using Pip](#using-pip)  
 3. [Running the Project](#running-the-project)  
-4. [Notes](#notes)
 
 ---
 
